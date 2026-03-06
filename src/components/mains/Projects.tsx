@@ -21,6 +21,10 @@ const Main = styled.main`
         height: auto;
         flex-direction: column;
     }
+    & * {
+        margin: 15px 0;
+        padding-top: 10px;
+    }
     
 `;
 const H2 = styled.h2`

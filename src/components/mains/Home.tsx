@@ -12,12 +12,17 @@ const MainWrapper = styled.main`
     text-align: center;
     width: 70%;
     height: auto;
+    & * {
+        margin: 15px 0;
+        padding-top: 10px;
+    }
     @media screen and (max-width: 1000px){
         width: 100%;
         min-height: 100vh;
         height: auto;
         flex-direction: column;
     }
+    
 `;
 const H2 = styled.h2`
     text-align: center;
@@ -54,7 +59,6 @@ export default function Home() {
     //     main of my landing page from home page
         <>
         <title>Home | Resume </title>
-
     <NavMain>
             <MainWrapper>
                     <H2> Home </H2>
