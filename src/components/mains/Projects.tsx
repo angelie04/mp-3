@@ -154,7 +154,7 @@ export default function Projects (){
                         onChange={(e)=>setInput1(e.target.value)}/>
                     <Label htmlFor="second"> Second number:</Label>
                     <Input
-                        id={`first`}
+                        id={`second`}
                         value={input2}
                         placeholder={`Enter a number`}
                         onChange={(e)=>setInput2(e.target.value)}/>
