@@ -69,7 +69,9 @@ const ReferenceContainer = styled.div`
 
 export default function References(){
     return (
-        <NavMain>
+        <>
+        <title>References | Resume </title>
+    <NavMain>
             <Main>
                 <H2> My References </H2>
                 <ReferenceContainer>
@@ -99,5 +101,6 @@ export default function References(){
                 </ReferenceContainer>
             </Main>
         </NavMain>
+        </>
     )
 }

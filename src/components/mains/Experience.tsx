@@ -68,7 +68,10 @@ const ExperienceContainer = styled.div`
 
 export default function Experience() {
     return (
-        <NavMain>
+        <>
+        <title>Experience | Resume </title>
+
+    <NavMain>
         <Main >
             <H2> My Experience </H2>
             <ExperienceContainer>
@@ -163,5 +166,6 @@ export default function Experience() {
             </ExperienceContainer>
         </Main>
         </NavMain>
+            </>
     )
 }

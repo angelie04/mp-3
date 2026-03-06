@@ -23,7 +23,6 @@ const Ul = styled.ul`
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-
     }
 `;
 const Li = styled.li`

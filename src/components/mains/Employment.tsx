@@ -45,6 +45,8 @@ const P1 = styled.p`
 `;
 export default function Employment() {
     return (
+        <>
+            <title>Employment | Resume </title>
         <NavMain>
             <Main >
                 <H2> My Employment </H2>
@@ -65,5 +67,6 @@ export default function Employment() {
                 </EmploymentContainer>
             </Main>
         </NavMain>
+        </>
     )
 }

@@ -15,11 +15,6 @@ const Main = styled.main`
     width: 70%;
     height: auto;
     min-width: 0;
-    // styling for all of main
-    & * {
-        margin: 15px 0;
-        padding-top: 10px;
-    }
     @media screen and (max-width: 1000px){
         width: 100%;
         min-height: 100vh;
@@ -122,7 +117,9 @@ export default function Projects (){
         setOutput(0);
     }
     return (
-        <NavMain>
+        <>
+        <title>Projects | Resume </title>
+    <NavMain>
             <Main>
                 <H2> My Projects </H2>
                <ProjectContainer>
@@ -171,5 +168,6 @@ export default function Projects (){
                     {output}</Label>
             </Main>
         </NavMain>
+        </>
     )
 }

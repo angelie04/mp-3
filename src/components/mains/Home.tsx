@@ -12,11 +12,6 @@ const MainWrapper = styled.main`
     text-align: center;
     width: 70%;
     height: auto;
-    // styling for all of main
-    & * {
-        margin: 15px 0;
-        padding-top: 10px;
-    }
     @media screen and (max-width: 1000px){
         width: 100%;
         min-height: 100vh;
@@ -57,7 +52,10 @@ const Bio = styled.div`
 export default function Home() {
     return (
     //     main of my landing page from home page
-        <NavMain>
+        <>
+        <title>Home | Resume </title>
+
+    <NavMain>
             <MainWrapper>
                     <H2> Home </H2>
                 <PicText>
@@ -70,5 +68,6 @@ export default function Home() {
                 </PicText>
             </MainWrapper>
         </NavMain>
+        </>
     )
 }

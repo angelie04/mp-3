@@ -11,11 +11,7 @@ const Main = styled.main`
     text-align: center;
     width: 70%;
     height: auto;
-    // styling for all of main
-    & * {
-        margin: 15px 0;
-        padding-top: 10px;
-    }
+   
     @media screen and (max-width: 1000px){
         width: 100%;
         min-height: 100vh;
@@ -44,7 +40,9 @@ const P1 = styled.p`
 `;
 export default function Education() {
     return (
-        <NavMain>
+        <>
+        <title>Education | Resume </title>
+    <NavMain>
             <Main>
                 <H2> My Education </H2>
                 <EducationContainer>
@@ -55,5 +53,6 @@ export default function Education() {
                 </EducationContainer>
             </Main>
         </NavMain>
+        </>
 )
 }
